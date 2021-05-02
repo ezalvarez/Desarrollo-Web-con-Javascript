@@ -1,0 +1,178 @@
+.ul1{
+	margin: 0; /*Margen*/
+	list-style-type: none; /*Para que no este el puntito*/
+	padding: 0; 
+}
+
+.ul2{
+	display: inline; /*Convertirlo a linea*/
+}
+
+
+}
+nav{
+	margin-left: 50px;
+	margin-top:0px;
+	
+}
+
+ul li a{
+	width:170px;/*Ancho*/
+	height:50px; /*Alto*/
+	display: inline-block; /*Convertirlo a bloque*/
+	text-decoration: none;/*Le saco el subrayado*/
+	font-size: 20px;/*Aumento el tamanio de la letra*/
+	color: white;/*Cambio color de la letra*/
+	text-align: center;/*Centro la palabra*/
+	line-height: 50px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
+	width:170px;/*Ancho*/
+	height:50px; /*Alto*/
+	display: inline-block; /*Convertirlo a bloque*/
+	text-decoration: none;/*Le saco el subrayado*/
+	font-size: 20px;/*Aumento el tamanio de la letra*/
+	color: white;/*Cambio color de la letra*/
+	text-align: center;/*Centro la palabra*/
+	line-height: 50px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+.fondo{
+	
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin.jpg") #000;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+}
+.fondo2{
+	
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin2.jpg") #000;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+}
+.fondo3{
+	
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin3.jpg") #000;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+}
+
+
+section{
+	background-color: black;
+	width:1800px;/*Ancho*/
+	height:800px; /*Alto*/
+	text-align: center;
+	margin-left: auto;
+	margin-top: 1050px;
+	margin-right: auto;
+	display: block;
+	--border: 0.1px solid white;
+	--border-radius:9px;
+	padding: 10px;
+}
+section pre{
+	font-size: 60px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-top:350px;
+	float: left;
+	Opacity: 0.5;
+}
+section h2{
+	
+	display: inline-block;
+	width: 500px;
+	float: right;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	Opacity: 0.5;
+	margin-top:10px;
+	margin-left:450px;
+	margin-right: 30px;
+	
+}
+
+.ajustevideo{
+	
+	width: 800px;
+	height: 700px;
+	float: right;
+	float: top;
+	margin-right: 100px;
+}
+
+.encabezadoimg{
+	width: 120px;
+	height: 120px;
+	margin-right:0px;
+	float: left;
+	
+}
+.imagen1{
+	float: left;
+	margin-top: 100px;
+	width: 800px;
+	height:236px;
+}
+.titulo{
+	display: inline-block;
+	width: 500px;
+	--float: right;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	Opacity: 0.5;
+	font-size: 100px;
+	--margin-top:10px;
+	margin-left:650px;
+	margin-right: 650px;
+	margin-bottom:0px;
+}
+.texto1{
+	display: inline-block;
+	width: 500px;
+	float: left;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	Opacity: 0.5;
+	font-size: 30px;
+	margin-left:200px;
+	margin-right: 1000px;
+	margin-bottom:10px;
+}
+
+.item1{
+	float: right;
+	color:white;
+	font-weight: 100;
+	Opacity: 0.5;
+	font-size: 20px;
+	margin-right:700px;
+	margin-left: 20px;
+	margin-top: 150px;
+	text-align: left;
+}
+.imagen2{
+	float: left;
+	margin-top: 60px;
+	width: 800px;
+	height:236px;
+}
+.item2{
+	float: right;
+	color:white;
+	font-weight: 100;
+	Opacity: 0.5;
+	font-size: 20px;
+	margin-right:685px;
+	margin-left: 10px;
+	margin-top: 100px;
+	text-align: left;
+}
