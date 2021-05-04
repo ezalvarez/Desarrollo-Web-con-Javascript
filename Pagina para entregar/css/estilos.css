@@ -8,8 +8,6 @@
 	display: inline; /*Convertirlo a linea*/
 }
 
-
-}
 nav{
 	margin-left: 50px;
 	margin-top:0px;
@@ -79,9 +77,10 @@ section pre{
 	font-size: 60px;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	margin-top:350px;
+	margin-top:200px;
 	float: left;
 	Opacity: 0.5;
+	
 }
 section h2{
 	
@@ -175,4 +174,204 @@ section h2{
 	margin-left: 10px;
 	margin-top: 100px;
 	text-align: left;
+}
+
+.parrafo1{
+	width:500px;
+	height:100px;
+	float: right;
+	color: white;
+	font-weight:100;
+	Opacity:0.5;
+	font-size: 20px;
+	margin-top:200px;
+	margin-right:450px;
+	margin-left:10px;
+}
+/*COMIENZA EL MEDIA*/
+@media all and (min-width:600px) and (max-width:1023px){
+
+section{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+}
+section pre{
+	margin-top:auto;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+section h2{
+	
+	float: none;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+
+.ajustevideo{
+	
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.imagen1{
+	float: none;
+	margin-top: 0px;
+	width: 500px;
+	height:auto;
+}
+.titulo{
+	--width: 500px;
+	--float: right;
+	--margin-top:10px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:0px;
+}
+.texto1{
+	width: auto;
+	float: left;
+	margin-left:100px;
+	margin-right: auto;
+	margin-top:10px;
+}
+
+.item1{
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+	list-style-type: none;
+}
+.imagen2{
+	float: none;
+	margin-top: 0px;
+	width: 500px;
+	height:auto;
+}
+.item2{
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+	list-style-type: none;
+}
+
+.parrafo1{
+	width:auto;
+	height:auto;
+	float: right;
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+}
+}/* FIN MEDIA 600 a 1023*/
+/*COMIENZA MEDIA DE 599<=*/
+@media all and (max-width:599px){
+
+ul li a{
+	width:50%;/*Ancho*/
+	display: block;
+	height:auto; /*Alto*/
+	line-height: 50px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:3px;
+
+}
+
+ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
+	width:50%;/*Ancho*/
+	display: block;
+	height:auto; /*Alto*/
+	line-height: 50px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:3px;
+}
+
+	section{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+}
+section pre{
+	width:auto;
+	margin-top:auto;
+	float:none;
+	font-size:45px;
+}
+section h2{
+	
+	float: none;
+	margin-left:auto;
+	margin-right: auto;
+	font-size:20px;
+}
+
+.ajustevideo{
+	
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.imagen1{
+	float: none;
+	margin-top: 0px;
+	width: 400px;
+	height:auto;
+}
+.titulo{
+	width: 100%;
+	float: none;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right: auto;
+	font-size:60px;
+}
+.texto1{
+	width: auto;
+	float: left;
+	margin-left:100px;
+	margin-right: auto;
+	margin-top:10px;
+	font-size:18px;
+}
+
+.item1{
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+	list-style-type: none;
+	font-size:20px;
+}
+.imagen2{
+	float: none;
+	margin-top: 0px;
+	width: 400px;
+	height:auto;
+}
+.item2{
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+	list-style-type: none;
+}
+
+.parrafo1{
+	width:auto;
+	height:auto;
+	float: right;
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+}
 }
