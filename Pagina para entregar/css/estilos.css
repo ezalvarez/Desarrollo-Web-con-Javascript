@@ -14,7 +14,7 @@ nav{
 	
 }
 
-ul li a{
+nav ul li a{
 	width:170px;/*Ancho*/
 	height:50px; /*Alto*/
 	display: inline-block; /*Convertirlo a bloque*/
@@ -25,9 +25,10 @@ ul li a{
 	line-height: 50px;/*Centro verticalmente con la misma altura que pusimos en height*/
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
-ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
+nav ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
 	width:170px;/*Ancho*/
 	height:50px; /*Alto*/
 	display: inline-block; /*Convertirlo a bloque*/
@@ -42,23 +43,35 @@ ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
 }
 .fondo{
 	
-	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin.jpg") #000;
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Integradora/imagenes/fin.jpg");
+	background-color:black;
 	font-family: 'Roboto', sans-serif;
 	background-repeat: no-repeat;
 }
 .fondo2{
 	
-	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin2.jpg") #000;
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Integradora/imagenes/fin2.jpg") #000;
 	font-family: 'Roboto', sans-serif;
 	background-repeat: no-repeat;
 }
 .fondo3{
 	
-	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Pagina%20para%20entregar/imagenes/fin3.jpg") #000;
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Integradora/imagenes/fin3.jpg") #000;
 	font-family: 'Roboto', sans-serif;
 	background-repeat: no-repeat;
 }
-
+.fondo4{
+	
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Integradora/imagenes/fin4.jpg") #000;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+}
+.fondo5{
+	
+	background: url("file:///C:/Users/Eze/Desktop/Facultad%202/Programacion%20web/Integradora/imagenes/fin5.jpg") #000;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: no-repeat;
+}
 
 section{
 	background-color: black;
@@ -133,7 +146,7 @@ section h2{
 	margin-right: 650px;
 	margin-bottom:0px;
 }
-.texto1{
+.texto{
 	display: inline-block;
 	width: 500px;
 	float: left;
@@ -187,16 +200,231 @@ section h2{
 	margin-top:200px;
 	margin-right:450px;
 	margin-left:10px;
+	
 }
+div a:hover{
+	background-color: #636363;
+	float: left;
+	width: auto;
+	height:auto;
+	border-radius:10px;
+
+}
+.titulos{
+	text-align:left;
+	--margin: auto;
+	color: white;
+	font-size: 40px;
+	Opacity: 0.7;
+	text-decoration: none;
+}
+.items{
+	text-align:left;
+	--margin: auto;
+	color: white;
+	font-size: 25px;
+	Opacity: 0.5;
+}
+.section2{
+	background-color: black;
+	width:1800px;/*Ancho*/
+	height:auto; /*Alto*/
+	text-align: center;
+	margin-left: auto;
+	margin-top: 1050px;
+	margin-right: auto;
+	display: block;
+	--border: 0.1px solid white;
+	--border-radius:9px;
+	padding: 10px;
+}
+.section3{
+	background-color: black;
+	width:1800px;/*Ancho*/
+	height:500px; /*Alto*/
+	text-align: center;
+	margin-left: auto;
+	margin-top: 1050px;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+}
+
+
+#botones{
+	margin: 0; /*Margen*/
+	list-style-type: none; /*Para que no este el puntito*/
+	padding: 0; 
+	float: right;
+}
+.boton{
+	width:45px;/*Ancho*/
+	height:25px; /*Alto*/
+	display: inline-block; /*Convertirlo a bloque*/
+	text-decoration: none;/*Le saco el subrayado*/
+	font-size: 25px;/*Aumento el tamanio de la letra*/
+	color: white;/*Cambio color de la letra*/
+	text-align: center;/*Centro la palabra*/
+	line-height: 25px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	
+}
+.boton:hover{
+	width:45px;/*Ancho*/
+	height:25px; /*Alto*/
+	display: inline-block; /*Convertirlo a bloque*/
+	text-decoration: none;/*Le saco el subrayado*/
+	font-size: 25px;/*Aumento el tamanio de la letra*/
+	color: white;/*Cambio color de la letra*/
+	text-align: center;/*Centro la palabra*/
+	line-height: 25px;/*Centro verticalmente con la misma altura que pusimos en height*/
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+}
+#agrandar{
+		text-align:left;
+	--margin: auto;
+	color: white;
+	font-size: 25px;
+	Opacity: 0.5;
+}
+#login{
+	background-color: black;
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	text-align: center;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	display: block;
+	--border: 0.1px solid white;
+	--border-radius:9px;
+	padding: 10px;
+}
+input{
+	height: 40px;
+	background-color: #DADADA;
+}
+.enviar{
+	display:block;
+	width:540px;
+	height: 23px;
+	background-color: #DADADA;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 20px;
+}
+.imagenjquery{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+section div a img{
+	width: 100%;
+	float: left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#img{
+	float: none;
+	margin-top: 100px;
+	width: 800px;
+	height:236px;
+	
+}
+#img2{
+	float: none;
+	margin-top: 100px;
+	width: 800px;
+	height:236px;
+}
+#img3{
+	float: none;
+	margin-top: 100px;
+	width: 800px;
+	height:236px;
+}
+#img4{
+	float: none;
+	margin-top: 100px;
+	width: 800px;
+	height:236px;
+}
+.texto2{
+	display: inline-block;
+	width: 500px;
+	float: left;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	Opacity: 0.5;
+	font-size: 30px;
+	margin-left:150px;
+	margin-right: 1000px;
+	margin-bottom:10px;
+}
+.parrafo2{
+	width:500px;
+	height:100px;
+	float: right;
+	color: white;
+	font-weight:100;
+	Opacity:0.5;
+	font-size: 20px;
+	margin-top:100px;
+	margin-right:450px;
+	margin-left:10px;
+}
+
 /*COMIENZA EL MEDIA*/
 @media all and (min-width:600px) and (max-width:1023px){
-
+.fondo{
+	background-image: none;
+	
+}
+.fondo2{
+	background-image:none;
+	
+}
+.fondo3{
+	background-image:none;
+}
+.fondo4{
+	background-image:none;
+}
+.fondo5{
+	background-image:none;
+}
 section{
 	width:auto;/*Ancho*/
 	height:auto; /*Alto*/
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0px;
 }
+.section2{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+.section3{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
 section pre{
 	margin-top:auto;
 	float:none;
@@ -227,26 +455,24 @@ section h2{
 	height:auto;
 }
 .titulo{
-	--width: 500px;
-	--float: right;
-	--margin-top:10px;
+	width: 100%;
+	float: none;
+	margin-top:0px;
 	margin-left:auto;
 	margin-right: auto;
-	margin-bottom:0px;
+	font-size:60px;
 }
 .texto1{
 	width: auto;
 	float: left;
-	margin-left:100px;
+	margin-left:auto;
 	margin-right: auto;
-	margin-top:10px;
+	margin-top:auto;
 }
-
 .item1{
 	margin-right:30%;
 	margin-left: 30%;
 	margin-top: 15px;
-	list-style-type: none;
 }
 .imagen2{
 	float: none;
@@ -258,7 +484,6 @@ section h2{
 	margin-right:30%;
 	margin-left: 30%;
 	margin-top: 15px;
-	list-style-type: none;
 }
 
 .parrafo1{
@@ -269,10 +494,108 @@ section h2{
 	margin-left: 30%;
 	margin-top: 15px;
 }
+.imagenjquery{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.titulos{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+section div a img{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	float: none;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img2{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img3{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img4{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+.texto{
+	width: auto;
+	float: none;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:auto;
+}
+.texto2{
+	width: auto;
+	float: left;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+}
+.parrafo2{
+	width:auto;
+	height:auto;
+	float: right;
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+}
+div a:hover{
+	float: none;
+	width: auto;
+	height:auto;
+	border-radius:10px;
+
+}
 }/* FIN MEDIA 600 a 1023*/
+
+
+
 /*COMIENZA MEDIA DE 599<=*/
 @media all and (max-width:599px){
 
+.fondo{
+	background-image: none;
+	
+}
+.fondo2{
+	background-image:none;
+	
+}
+.fondo3{
+	background-image:none;
+}
+.fondo4{
+	background-image:none;
+}
+.fondo5{
+	background-image:none;
+}
 ul li a{
 	width:50%;/*Ancho*/
 	display: block;
@@ -299,7 +622,23 @@ ul li a:hover{ /*Es para cuando pasamos el mouse por encima*/
 	height:auto; /*Alto*/
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0px;
 }
+.section2{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+.section3{
+	width:auto;/*Ancho*/
+	height:auto; /*Alto*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
 section pre{
 	width:auto;
 	margin-top:auto;
@@ -307,7 +646,7 @@ section pre{
 	font-size:45px;
 }
 section h2{
-	
+	width:150px;
 	float: none;
 	margin-left:auto;
 	margin-right: auto;
@@ -329,6 +668,7 @@ section h2{
 	width: 400px;
 	height:auto;
 }
+
 .titulo{
 	width: 100%;
 	float: none;
@@ -340,17 +680,16 @@ section h2{
 .texto1{
 	width: auto;
 	float: left;
-	margin-left:100px;
+	margin-left:auto;
 	margin-right: auto;
-	margin-top:10px;
-	font-size:18px;
+	margin-top:auto;
+	font-size:23px;
 }
 
 .item1{
 	margin-right:30%;
 	margin-left: 30%;
 	margin-top: 15px;
-	list-style-type: none;
 	font-size:20px;
 }
 .imagen2{
@@ -363,10 +702,89 @@ section h2{
 	margin-right:30%;
 	margin-left: 30%;
 	margin-top: 15px;
-	list-style-type: none;
 }
 
 .parrafo1{
+	width:auto;
+	height:auto;
+	float: right;
+	margin-right:30%;
+	margin-left: 30%;
+	margin-top: 15px;
+}
+.imagenjquery{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.titulos{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 50px;
+}
+.encabezadoimg{
+	display:none;
+}
+
+.enviar{
+	width:450px;
+}
+section div a img{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	float: none;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img2{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img3{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+#img4{
+	width:auto;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:1px;
+}
+.texto{
+	width: auto;
+	float: left;
+	font-size: 23px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:auto;
+}
+.texto2{
+	width: auto;
+	float: left;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:auto;
+}
+.parrafo2{
 	width:auto;
 	height:auto;
 	float: right;
